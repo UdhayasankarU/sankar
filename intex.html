@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food-Delivery</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./intex.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@1,700&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container-fuild">
+<header >
+    <div class="row">
+    <div class="col col-lg-3 col-md-3">
+    <img src="./logo food.png" alt="" width="200"></div>
+    <div class="col col-lg-6 col-md-6">
+        
+        <div class="search mt-4">
+            <img src="./icons8-location-50.png" class=""  alt="">
+              
+                 <p class=" dropdown dropdown-toggle ps-0 mt-3"data-bs-toggle="dropdown"role="button">Kallakurichi</p>
+               <div class="dropdown-menu">
+               <p class="dropdown-item ">Chennai</p>
+                <option class="dropdown-item ">Coimbatore</option>
+                <p class="dropdown-item ">Trichy</p>
+                <p class="dropdown-item ">Madurai</p>
+                <input type="text" class="dropdown-item "placeholder="Find Your Place">
+            </div><div class="dish">
+            <input type="text" id="dish"class="form-control" placeholder="Search for a Dish or your Favorite Food">
+        </div></div>
+    </div>
+    <div class="col col-lg-1 col-md-1"></div>
+    <div class="col col-lg-2 col-md-2">
+    <nav>
+        <div class="login">
+        <div class="nav   mt-3 text-secondary " data-bs-toggle="nav" >
+            <div class="navbar">
+            <ul class="nav ">
+                <li class="nav-item"><a class="btn nav-link"data-bs-toggle="modal" data-bs-target="#myModal">login</a></li>
+                <li class="nav-item"><a class="btn nav-link"data-bs-toggle="modal" data-bs-target="#my-Modal">Sign up</a></li>
+              
+            </ul>
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Login Account </h4>
+                    </div>
+                    <div class="modal-body">
+                        <label for="">Email</label>
+                        <input type="email" placeholder="Enter your Email">
+                      <label for=""> password</label>
+                      <input type="text" placeholder="Enter your password"><br>
+                     
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default " data-dismiss="modal">Close</button>
+                    
+                    <button type="button" class="btn bg-info btn-pill text-white" data-dismiss="modal">Login</button>
+                    </div>
+                  </div>
+                  
+                </div></div>
+                <div class="modal fade" id="my-Modal" role="dialog">
+                    <div class="modal-dialog">
+                    
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Create Account</h4>
+                        </div>
+                        <div class="modal-body">
+                          <label for="">Name</label>
+                          <input type="text" placeholder="Enter your name"> <br>
+                          <label for="">create password</label>
+                          <input type="text" placeholder="Enter your password"><br>
+                          <label for="">Mobel Number</label>
+                          <input type="number" placeholder="Enter your Number">
+                          <label for="">Email</label>
+                          <input type="number" placeholder="Enter your Email">
+                         
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default " data-dismiss="modal">Close</button>
+                        
+                        <button type="button" class="btn bg-info btn-pill text-white" data-dismiss="modal">submit</button>
+                        </div>
+                      </div>
+                      
+                    </div></div>
+        </div>
+        </div></div></div>
+    </nav>
+</header>
+<div class="image-head">
+<div class="row">
+
+
+    <div class="col-lg-12 col-md-12">
+     <span  class="img-2 col-lg-12 col-md-12">   <img src="./pexels-mikkel-bendix-251808.jpg" alt="">
+   <p >Food Tastes Better when you Eat <br>it with your <br> Family<br> Join to Emmy Food Family <br><br> <span class="badge bg-danger btn">Order  Now</p></p> </span>> 
+    </div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-0"></div>
+  <div class="col-lg-12">
+    <div class="slide">
+      <div id="carouselExampleControlsNoTouching" class="carousel slide ms-5" data-bs-touch="false" data-bs-interval="false">
+        <div class="carousel-inner">
+          <h1>What's on Your Mind ? </h1>
+          <div class="carousel-item active " >
+            <div class="first">
+            <img src="./chick.png" class="" alt="...">
+            <img src="./pisa.png" class="" alt="...">
+            <img src="./junk.png" class="" alt="...">
+            <img src="./noodle.png" class="" alt="...">
+            <img src="./juice.png" class="" alt="...">
+          </div></div>
+          
+          <div class="secound carousel-item ms-0">
+            <img src="./kfc.png" class="" alt="...">
+            <img src="./m.png" class="" alt="...">
+            <img src="./thalapa kadu.png" class="" alt="...">
+            <img src="./anjappar.png" class="" alt="...">
+            <img src="./sub.png" class="" alt="...">
+            <img src="./burger.png" class="" alt="...">
+          </div>
+         
+          <div class="third carousel-item">
+            <img src="./cake.png" class="" alt="...">
+            <img src="./ice cream.png" class="" alt="...">
+            <img src="./domino.png" class="" alt="...">
+            <img src="./coffe.png" class="" alt="...">
+        
+            <img src="./beer.png" class="" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div></div></div></div>
+
+
+      <!-- chicken  box-->
+  <div class="container ">
+<div class="row">
+  <div class="col-lg-12 col-md-12 gy-5">
+    
+  </div></div>   
+</div>
+<br><br><br><br>
+
+<!-- chicken display -->
+
+<div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        
+          <div class="slide">
+            <div id="chicken" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+              <div class="carousel-inner">
+                <h1>Made to order, just for you!!!</h1>
+                <div class="carousel-item active mt-5  ms-5 me-5" >
+                  <div class="first-1 me-5">
+                  <img src="./chicken.png" class=" "alt="...">
+                  
+                  <img src="./Grilled-Food-Download-PNG-Image.png" class="" alt="...">
+                  <img src="./pizza-1.png" class="" alt="...">
+                  <img src="./india food.png" class="" alt="...">
+                  <img src="./burger-1.png" class="" alt="...">
+                </div></div>
+                
+              
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#chicken" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#chicken" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div></div>
+
+
+      </div>
+    </div>  
+
+    <!-- food image  -->
+
+<div class="container mt-5">
+  <div class="row">
+    <h3 class="mb-5">Hungry for greatness? Order online&#128523;</h3>
+
+    <div class="col-12 col-md-4 col-lg-4">
+
+      
+
+<div class="card" style="width: 18rem;">
+  <img src="../first project/food/biriyani-2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title ">Biriyani<span class="badge bg-success ms-4">4.9☆</span></h5>
+    <p class="card-text">Eating biryani in your favourite place, with same old friends is still a dream for many🍗😋</p>
+    <button class="btn btn-primary btn-warning text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Get your Offer</button>
+<!-- top open -->
+
+
+
+<div class="container">
+ 
+
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <h4 id="offcanvasTopLabel">For the love of biryani – order now!</h4>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class=" chicken-img">
+        <div class="row ms-5 me-5 ">
+
+          <!-- card open offer -->
+
+          <div class="col-lg-4 col-12">
+        <div class="card  mt-5" style="width: 18rem;">
+          <img src="./food/biriyani-2.jpg" class="card-img-top card-2" alt="...">
+           
+              
+              
+  
+    
+          <div class="card-body">
+            <h5 class="card-title">Dindigul Veetu Kalyanam </h5>
+            <p class="card-text">Biriyani <span class="badge bg-success ">4.9☆</span></p>
+            <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 100</small></mark></p>
+           <div class="card-footer text-secondary m-0 p-0">
+             <small class="m-0">Chennai,Tamilnadu...</small>
+             <small class="float-end m-0" >₹200 for one</small>
+           </div>
+        
+      </div></div></div>
+
+
+
+      <div class="col-lg-4 col-12">
+
+      <div class="card  mt-5" style="width: 18rem; ">
+        <img src="./food/anbur.jpg" class="card-img-top card-2" style="width: 18rem; height: 11.6rem;"alt="...">
+          
+           
+
+  
+        <div class="card-body">
+          <h5 class="card-title">Ambur Briyani</h5>
+          <p class="card-text">Biriyani<span class="badge bg-success ">4.5☆</span></p>
+          <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 100</small></mark></p>
+         <div class="card-footer text-secondary m-0 p-0">
+           <small class="m-0"> Chennai - Bangalore National...</small>
+           <small class="float-end m-0" >₹250 for one</small>
+         </div>
+        
+        </div> </div> 
+    </div>
+
+
+
+
+    <div class="col-lg-4 col-12">
+
+      <div class="card mt-5" style="width: 18rem;">
+        <img src="./food/Kolkata-chicken-biryani.jpg" class="card-img-top card-2" alt="...">
+    
+            
+
+  
+        <div class="card-body">
+          <h5 class="card-title">Kolkata-chicken-biryani</h5>
+          <p class="card-text">Biriyani <span class="badge bg-success ">3.9☆</span></p>
+          <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 100</small></mark></p>
+         <div class="card-footer text-secondary m-0 p-0">
+           <small class="m-0">Chennai,Tamilnadu...</small>
+           <small class="float-end m-0" >₹240 for one</small>
+         </div>
+        
+        </div> </div> 
+    </div>
+
+
+
+    <div class="col-lg-4 col-12">
+
+      <div class="card  mt-5" style="width: 18rem;">
+        <img src="./food/malarber.jpg" class="card-img-top card-2" style="width: 18rem; height: 16.6rem;" alt="...">
+          
+
+  
+        <div class="card-body">
+          <h5 class="card-title">karala Biriyani</h5>
+          <p class="card-text">Biriyani<span class="badge bg-success ">4.3☆</span></p>
+          <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 100</small></mark></p>
+         <div class="card-footer text-secondary m-0 p-0">
+           <small class="m-0">Chennai,Tamilnadu...</small>
+           <small class="float-end m-0" >₹200 for one</small>
+         </div>
+        
+        </div> </div> 
+      </div>
+
+
+
+    <div class="col-lg-4 col-12">
+
+      <div class="card  mt-5" style="width: 18rem;">
+        <img src="./food/thalassery.jpg" class="card-img-top card-2" alt="...">
+         
+           
+
+  
+        <div class="card-body">
+          <h5 class="card-title">thalassery Biriyani</h5>
+          <p class="card-text">Biriyani <span class="badge bg-success ">3.9☆</span></p>
+          <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 100</small></mark></p>
+         <div class="card-footer text-secondary m-0 p-0">
+           <small class="m-0">Chennai,Tamilnadu...</small>
+           <small class="float-end m-0" >₹350 for one</small>
+         </div>
+        
+        </div> </div> 
+    </div>
+
+
+    <div class="col-lg-4 col-12">
+
+      <div class="card  mt-5" style="width: 18rem;">
+        <img src="./food/tikka.jpg" class="card-img-top card-2" style="width: 18rem; height: 16.6rem;" alt="...">
+        
+         
+
+  
+        <div class="card-body">
+          <h5 class="card-title">Tikka Biriyani</h5>
+          <p class="card-text">Biriyani<span class="badge bg-success ">3.6☆</span></p>
+          <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 100</small></mark></p>
+         <div class="card-footer text-secondary m-0 p-0">
+           <small class="m-0">Chennai,Tamilnadu...</small>
+           <small class="float-end m-0" >₹200 for one</small>
+         </div>
+        
+        </div> </div> 
+    </div>
+
+
+    <div class="col-lg-4 col-12">
+
+      <div class="card  mt-5" style="width: 18rem;">
+        <img src="./food/photo_2023-06-25_14-13-09.jpg" class="card-img-top card-2"  style="width: 18rem; height: 16.6rem;"alt="...">
+         
+
+  
+        <div class="card-body">
+          <h5 class="card-title">kerala Biriyani</h5>
+          <p class="card-text">Biriyani<span class="badge bg-success ms-4">3.9☆</span></p>
+          <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 100</small></mark></p>
+         <div class="card-footer text-secondary m-0 p-0">
+           <small class="m-0">Chennai,Tamilnadu...</small>
+           <small class="float-end m-0" >₹200 for one</small>
+         </div>
+        
+        </div> </div> 
+    </div>
+
+
+
+
+      <!-- end card -->
+      
+    </div></div>
+
+
+    
+
+</div>
+  
+</div>
+
+
+    <!--end this  line  -->
+  </div>
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<!-- secound img -->
+
+<div class="col-12 col-md-4 col-lg-4">
+<div class="card" style="width: 18rem;">
+  <img src="./food/brand-1.jpg" class="card-img-top" style="width: 100;height: 230px;" alt="vf.">
+  <div class="card-body">
+    <h5 class="card-title">Select your Brand <span class="badge bg-success">4.2☆</span></h5>
+    <p class="card-text">Just having some food, can brighten someones mood</p>
+    <button class="btn btn-primary btn-warning text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#food" aria-controls="offcanvasTop">Get Your Offer</button>
+<!-- top open -->
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="food" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <h3 id="offcanvasTopLabel"><small class="opacity-50">Choice your Brand</small></h3>
+        <button type="button" class="btn-close aa text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+
+      <div class="offcanvas-body">
+       
+        <div class=" food-img">
+          <div class="row ms-5 me-5 ">
+
+
+
+            <div class="col-lg-4 col-12">
+              <div class="card  mt-5" style="width: 18rem;">
+                <img src="./food/mudino.webp" class="card-img-top card-2" alt="...">
+                 
+                    
+                    
+        
+          
+                <div class="card-body">
+                  <h5 class="card-title">Dominos-combo Offer</h5>
+                  <p class="card-text">combo five<span class="badge bg-success ">4.9☆</span></p>
+                  <p class="card-text ms-5 "type="button"><mark ><small></small></mark></p>
+                 <div class="card-footer text-secondary m-0 p-0">
+                   <small class="m-0">Chennai,Tamilnadu...</small>
+                   <small class="float-end m-0" >₹299 for one</small>
+                 </div>
+              
+            </div></div></div>
+
+            <div class="col-lg-4 col-12">
+              <div class="card  mt-5" style="width: 18rem;">
+                <img src="./food/domino-1.jpeg" class="card-img-top card-2" style="height: 13rem;" alt="...">
+                 
+                    
+                    
+        
+          
+                <div class="card-body">
+                  <h5 class="card-title">Dominos</h5>
+                  <p class="card-text">Single-Pizza<span class="badge bg-success ">3.9☆</span></p>
+                  <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 100</small></mark></p>
+                 <div class="card-footer text-secondary m-0 p-0">
+                   <small class="m-0">Chennai,Tamilnadu...</small>
+                   <small class="float-end m-0" >₹99 for one</small>
+                 </div>
+              
+            </div></div></div>
+
+            <div class="col-lg-4 col-12">
+              <div class="card  mt-5" style="width: 18rem;">
+                <img src="./food/kfc-1.webp" class="card-img-top card-2" style="height: 13rem;" alt="...">
+                 
+                    
+                    
+        
+          
+                <div class="card-body">
+                  <h5 class="card-title">KFC-COMBO</h5>
+                  <p class="card-text">combo-4<span class="badge bg-success ">4.9☆</span></p>
+                  <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 100</small></mark></p>
+                 <div class="card-footer text-secondary m-0 p-0">
+                   <small class="m-0">Chennai,Tamilnadu...</small>
+                   <small class="float-end m-0" >₹499 for Offer</small>
+                 </div>
+              
+            </div></div></div>
+
+
+            <div class="col-lg-4 col-12">
+              <div class="card  mt-5" style="width: 18rem;">
+                <img src="./food/burger-2.jfif" class="card-img-top card-2" alt="...">
+                 
+                    
+                    
+        
+          
+                <div class="card-body">
+                  <h5 class="card-title">Burger </h5>
+                  <p class="card-text">Burger<span class="badge bg-success ">4.1☆</span></p>
+                  <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 100</small></mark></p>
+                 <div class="card-footer text-secondary m-0 p-0">
+                   <small class="m-0">Chennai,Tamilnadu...</small>
+                   <small class="float-end m-0" >₹99 for one</small>
+                 </div>
+              
+            </div></div></div>
+
+                 
+                    
+                    
+        
+          
+
+
+
+            <!-- end card -->
+      </div></div></div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- third -->
+
+
+<div class="col-12 col-md-4 col-lg-4">
+  <div class="card" style="width: 18rem;">
+    <img src="./food/Birthday-Cake-1.webp" class="card-img-top" style="width: 100;height: 230px;" alt="vf.">
+    <div class="card-body">
+      <h5 class="card-title">Cake the goodness, everyday <span class="badge bg-success">4.8☆</span></h5>
+      <p class="card-text">If celebration is the question, cake is the answer</p>
+      <button class="btn btn-primary btn-warning text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#snacks" aria-controls="offcanvasTop">Get Your Offer</button>
+  <!-- top open -->
+      <div class="offcanvas offcanvas-bottom" tabindex="-1" id="snacks" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+          <h3 id="offcanvasTopLabel">Heart Cake</h3>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+  
+  
+        <div class="offcanvas-body">
+         
+          <div class=" food-img">
+            <div class="row ms-5 me-5 ">
+  
+  
+  
+              <div class="col-lg-4 col-12">
+                <div class="card  mt-5" style="width: 18rem;">
+                  <img src="./food/mudino.webp" class="card-img-top card-2" alt="...">
+                   
+                      
+                      
+          
+            
+                  <div class="card-body">
+                    <h5 class="card-title">Dominos-combo Offer</h5>
+                    <p class="card-text">combo five<span class="badge bg-success ">3.9☆</span></p>
+                    <p class="card-text ms-5 "type="button"><mark ><small></small></mark></p>
+                   <div class="card-footer text-secondary m-0 p-0">
+                     <small class="m-0">Chennai,Tamilnadu...</small>
+                     <small class="float-end m-0" >₹299 for one</small>
+                   </div>
+                
+              </div></div></div>
+  
+              <div class="col-lg-4 col-12">
+                <div class="card  mt-5" style="width: 18rem;">
+                  <img src="./food/cake-1.jpg" class="card-img-top card-2" alt="...">
+                   
+                      
+                      
+          
+            
+                  <div class="card-body">
+                    <h5 class="card-title">Choco-Berry Surprise Cake</h5>
+                    <p class="card-text"> chocolate<span class="badge bg-success ">4.4☆</span></p>
+                    <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 150</small></mark></p>
+                   <div class="card-footer text-secondary m-0 p-0">
+                     <small class="m-0">Chennai,Tamilnadu...</small>
+                     <small class="float-end m-0" >₹599 for one</small>
+                   </div>
+                
+              </div></div></div>
+  
+              <div class="col-lg-4 col-12">
+                <div class="card  mt-5" style="width: 18rem;">
+                  <img src="./food/back.JPG" class="card-img-top card-2" alt="...">
+                   
+                      
+                      
+          
+            
+                  <div class="card-body">
+                    <h5 class="card-title">Black-Forest</h5>
+                    <p class="card-text">choco<span class="badge bg-success ">4.7☆</span></p>
+                    <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 200</small></mark></p>
+                   <div class="card-footer text-secondary m-0 p-0">
+                     <small class="m-0">Chennai,Tamilnadu...</small>
+                     <small class="float-end m-0" >₹599 for Offer</small>
+                   </div>
+                
+              </div></div></div>
+  
+  
+              <div class="col-lg-4 col-12">
+                <div class="card  mt-5" style="width: 18rem;">
+                  <img src="./food/white.webp" class="card-img-top card-2" alt="...">
+                   
+                      
+                      
+          
+            
+                  <div class="card-body">
+                    <h5 class="card-title">White-Forest </h5>
+                    <p class="card-text">Ice-Cream<span class="badge bg-success ">4.4☆</span></p>
+                    <p class="card-text ms-5 "type="button"><mark ><small>50%OFF upto 100</small></mark></p>
+                   <div class="card-footer text-secondary m-0 p-0">
+                     <small class="m-0">Chennai,Tamilnadu...</small>
+                     <small class="float-end m-0" >₹99 for one</small>
+                   </div>
+                
+              </div></div></div>
+  
+                   
+                      
+                      
+          
+            
+  
+  
+  
+              <!-- end card -->
+        </div></div></div>
+  
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+<!-- end container -->
+</div></div>
+
+<!-- order -->
+<div class="order">
+<div class="container mt-5">
+  <h2>Offer the first Order</h2>
+  <div class="row ">
+    
+
+
+      <div class="col-lg-4 col-12">
+        <div class="card  mt-5" style="width: 20rem;">
+          <img src="./food/anbur.jpg" class="card-img-top card-2" style="height: 15rem;"alt="...">    
+          <div class="card-body">
+            <h5 class="card-title">Anbur Biriyani</h5>
+            <p class="card-text">Biriyani<span class="badge bg-success ">4.9☆</span></p>
+       
+           <div class="card-footer text-secondary m-0 p-0">
+             <small class="m-0">Chennai,Tamilnadu...</small>
+             <small class="float-end m-0" >₹199 for one</small>
+           </div>
+        
+      </div></div></div>
+
+      <div class="col-lg-4 col-12">
+        <div class="card  mt-5" style="width: 20rem;">
+          <img src="./food/Grilled-Food-Download-PNG-Image.png" class="card-img-top card-2" style="height: 15rem;"alt="...">    
+          <div class="card-body">
+            <h5 class="card-title">Full-Grill </h5>
+            <p class="card-text">chicken<span class="badge bg-success ">4.6☆</span></p>
+           
+           <div class="card-footer text-secondary m-0 p-0">
+             <small class="m-0">Chennai,Tamilnadu...</small>
+             <small class="float-end m-0" >₹399 for one</small>
+           </div>
+        
+      </div></div></div>
+
+
+      <div class="col-lg-4 col-12">
+        <div class="card  mt-5" style="width: 20rem;">
+          <img src="./food/domino-1.jpeg" class="card-img-top card-2" style="height: 15rem;"alt="...">    
+          <div class="card-body">
+            <h5 class="card-title">Dminos</h5>
+            <p class="card-text">Dominos-Brand<span class="badge bg-success ">4.5☆</span></p>
+           
+           <div class="card-footer text-secondary m-0 p-0">
+             <small class="m-0">Chennai,Tamilnadu...</small>
+             <small class="float-end m-0" >₹199 for one</small>
+           </div>
+        
+      </div></div></div>
+
+
+
+      <div class="col-lg-4 col-12">
+        <div class="card  mt-5" style="width: 20rem;">
+          <img src="./food/burger-2.jfif" class="card-img-top card-2" style="height: 15rem;"alt="...">    
+          <div class="card-body">
+            <h5 class="card-title">Burger</h5>
+            <p class="card-text">Single-Burger<span class="badge bg-success ">3.7☆</span></p>
+           
+           <div class="card-footer text-secondary m-0 p-0">
+             <small class="m-0">Chennai,Tamilnadu...</small>
+             <small class="float-end m-0" >₹99 for one</small>
+           </div>
+        
+      </div></div></div>
+
+
+      <div class="col-lg-4 col-12">
+        <div class="card  mt-5" style="width: 20rem;">
+          <img src="./food/back.JPG" class="card-img-top card-2" style="height: 15rem;"alt="...">    
+          <div class="card-body">
+            <h5 class="card-title">Black-Forest</h5>
+            <p class="card-text">Cake<span class="badge bg-success ">4.3☆</span></p>
+            
+           <div class="card-footer text-secondary m-0 p-0">
+             <small class="m-0">Chennai,Tamilnadu...</small>
+             <small class="float-end m-0" >₹599 for one</small>
+           </div>
+        
+      </div></div></div>
+
+    
+
+
+     <div class="col-lg-4 col-12">
+        <div class="card  mt-5" style="width: 20rem;">
+          <img src="./food/m.jpg" class="card-img-top card-2" style="height: 15rem;"alt="...">    
+          <div class="card-body">
+            <h5 class="card-title">MCdonald's</h5>
+            <p class="card-text">Snackes<span class="badge bg-success ">4.4☆</span></p>
+            
+           <div class="card-footer text-secondary m-0 p-0">
+             <small class="m-0">Chennai,Tamilnadu...</small>
+             <small class="float-end m-0" >₹199 for one</small>
+           </div>
+        
+      </div></div></div>
+
+
+
+      <div class="col-lg-4 col-12">
+      <div class="card  mt-5" style="width: 20rem;">
+        <img src="./food/egg.jpg" class="card-img-top card-2" style="height: 15rem;"alt="...">    
+        <div class="card-body">
+          <h5 class="card-title">EGG-Nodals</h5>
+          <p class="card-text"> Long strips or Strings<span class="badge bg-success ">4.1☆</span></p>
+          
+         <div class="card-footer text-secondary m-0 p-0">
+           <small class="m-0">Chennai,Tamilnadu...</small>
+           <small class="float-end m-0" >₹99 for one</small>
+         </div>
+      
+    </div></div></div>
+
+    <div class="col-lg-4 col-12">
+        <div class="card  mt-5" style="width: 20rem;">
+          <img src="./food/cake.jpg" class="card-img-top card-2" style="height: 15rem;"alt="...">    
+          <div class="card-body">
+            <h5 class="card-title">Caky Creamy Nutty</h5>
+            <p class="card-text">Cake<span class="badge bg-success ">4.4☆</span></p>
+            
+           <div class="card-footer text-secondary m-0 p-0">
+             <small class="m-0">Chennai,Tamilnadu...</small>
+             <small class="float-end m-0" >₹199 for one</small>
+           </div>
+        
+      </div></div></div>
+
+
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+<!-- container end -->
+
+<div class="container mt-5">
+<div class="row">
+  <div class=" col-lg-7 col-12 ">
+
+  <img src="./food/order (2).png" style="width:600px; height:600px;" alt="">
+</div>
+<div class=" order-1 col-lg-5 col-12 d-flex align-items-center "><h4>EMMY FOOD ORDER NOW<span class="badge bg-danger btn btn-warning  " style="width:auto;" type="button">DOWNLOAD MOBILE APP</span></h4><br>
+ </div>
+
+</div>
+
+
+</div>
+
+
+
+
+<!-- Footer -->
+
+<footer class=" page page-footer font-small indigo text-white  mt-5">
+
+  <!-- Footer Links -->
+  <div class="container bg-dark text-white mt-5 text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row text-white">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">company</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">About</a>
+          </li>
+          <li>
+            <a href="#!">Careers</a>
+          </li>
+          <li>
+            <a href="#!">Team</a>
+          </li>
+         
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact us</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Help & Support</a>
+          </li>
+          <li>
+            <a href="#!">Partner with us</a>
+          </li>
+          <li>
+            <a href="#!">Ride With us</a>
+          </li>
+          
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Legal</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">team & Condition</a>
+          </li>
+          <li>
+            <a href="#!">cookie Policy</a>
+          </li>
+          <li>
+            <a href="#!">Privacy POlicy</a>
+          </li>
+          
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">We deliver to</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Kallakurichi</a>
+          </li>
+          <li>
+            <a href="#!">Chennai</a>
+          </li>
+          <li>
+            <a href="#!">Selam</a>
+          </li>
+          <li>
+            <a href="#!">thricy</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 bg-dark text-white-50">
+    © 2020 Copyright:
+    <a href="/"> Emmy-Food.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
